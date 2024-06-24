@@ -1,0 +1,25 @@
+#countt{
+    font-size: 30px;
+    text-align: center;
+}
+button{
+    width: 90px;
+    height: 35px;
+    border: none;
+    border-radius: 35px;
+    background-color: aliceblue;
+    box-shadow: 0 5px 10px gray;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.buttons{
+    text-align: center;
+}
+button:active{
+    box-shadow: inset 0 5px 10px gray;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20rem;
+}
